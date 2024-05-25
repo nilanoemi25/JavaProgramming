@@ -1,0 +1,145 @@
+/* readme.txt
+
+******************
+
+Name : NOEMI LOVEI 
+
+Student Number: 20108892
+
+Part A - Inheritance Hierarchy (24 / 24)
+-----------------------------
+
+WearableDevices (10/10) 
+
+FIELDS line 19 - line 24
+CONSTRUCTOR with Validation line 35 - 65
+GETTERS and SETTERS line 73 -159
+ABSTRACT METHODS x2  line 167 - 181
+toString() line 184-187
+equals() line 194 - 200 
+
+SmartWatch( 8 / 8)
+FIELD x1 = line 19
+CONSTRUCTOR line 37 - line 41
+GETTER and SETTER line 49 - line 57
+Implemented abstract methods x2 line 67 - line 75
+toString() line 88 -line 91
+equals() line 100 - line 106
+
+SmartBand ( 8 / 8)
+FIELD x1 line 17
+CONSTRUCTOR line 37 - line 39
+GETTER and SETTER line 46 - line 53
+Implemented abstract methods x2 line 62 - line 69
+toString() line 81 - line 90
+equals() line 100 - line 106
+
+Part B - TechnologyDeviceAPI  (34 /34)
+-----------------------------
+basic CRUD (13 /13 )
+CREATE line 60-63 and line 80-83
+READ line 177-184 and line 195-207 and line 218-230 and line 242-253 and 266-278 and line 355-370
+UPDATE line 387-402 and 418-434
+DELETE line 92-98 and line 108-120
+
+reporting/numberOf methods (8 / 8)
+numberofWDDevices() line 285 - 290
+numberOfSB() line 299 - 307
+numberofSW() line 315 - 324
+numberofWDbyManufacturer() line 333 -344
+
+validation methods  & persistence  (5 / 5)
+save() line 640 - 645
+load() line 654 - 664
+
+sorting / top 5 (8 / 8)
+topFiveMostExpWD line 576 - 588
+topFiveMostExpSW line 614 - 630
+
+
+Part C - UX (user experience) and Driver:Mark (23 /23)
+-----------------------------
+Good Menu Structure  (4 / 4)   
+Line 59-77 and line 130 - 139 and line 205 - 209 and line 274 -280 and line 300-325
+
+ArrayListCRUD  - all  types handled  (7 / 7)
+CREATE line 145 -180
+DELETE line 181-195
+READ line 197- 199
+UPDATE line 200 -258
+
+Reports Menu - for all wearables (7 / 7)
+Line 303 -325
+
+Search, Sort, top5   (4 / 4)  
+SEARCH line 410-452
+SORT line 460- 484
+TOP5 line 348, and line 352
+
+Save, Load, Exit   (1 / 1)    
+line 491-499 and 507-514 and 111-115
+
+
+Part D - DX (Overall style) (11%)	 (11 /11)
+-----------------------------
+Code correctly commented (3 / 3)
+
+Standard naming, indentation, DRY Code etc. (5 / 5)
+
+Javadoc written for WearableDeviceAPI  (3 / 3)
+WearableDevice line 1 -203
+
+
+Part E - For Extra Credit (10%)  (10 / 10)
+-----------------------------
+Please list the following for each extra functionality that you implemented
+     the extra functionality 
+     what changes this lead to from spec given
+     where the extra implementation took place.
+
+EXTRA METHODS in WDAPI
+numberofWDDevicesbyChosenManufacturer() line 331 to 343
+top5LeaseExpensiveWDDevices() line 594-605
+DRIVER
+numberofWDDevicesbyChosenManufacturer Line 321:374-395
+Top5LeastExpensiveWDDevices Line 312: 355-356
+Totals: Line 320-321 and line 397-400
+
+Part F - Reflection (8 / 8)
+-----------------------------
+Filled out parts A - D above (3 / 3)
+
+Rest(5 / 5)
+Chronology of my implementation (what I did first, etc.. )
+00 Wrote up menu in driver as soon as the assignment was out
+01 Read through everything 02  WD Class, Smart Band Class, SmartWatch Class
+03 Did the whole API not just dummy code but wrote all the methods, without any assurance that any of it was correct
+04 Driver Class was the hardest mostly because I discovered all the errors from the API methods. I focused on getting most things working and then returned to the bugs/errors that I knew were hidden in there. 
+
+Main difficulties I came across in your development of solution and how I solved them.
+I wasnt sure how to ADD SW and SB to the arraylist. I didnt know whether to pass an Obj in to the Add method as a parameter or to have the individual fields passed in to the ADD method. I tried both and went with the latter. At some point I had both because I have a different method for adding SW and SB, but I found that passing in the fields as params worked the best. I wasnt sure if having a separate method for adding SW and SB are correct but the only way I could get it to work. 
+I noticed that I forgot about the unique ID requirement in the driver and only by chance as I was worked through saved data that I realised my ids were the same. I added in the validation last minute. 
+I luckily knew the continue keyword from JS so I got around the manufacturer name 'null' error quite easily. 
+
+
+Any bugs remaining in the solution or unfinished elements of spec (no need if you have detailed these in the rubric section) No bugs remain to my knowledge!!
+
+Main learnings from my engagement with assignment
+I was apprehensive about the driver for somereason but I feel better about it now in terms of having to call every single method from the API and having all the system.outs in the driver. All the sorting and searching labs went over my head I really only applied it in the assignment. 
+
+Mandatory : PLease list any references used in your development/ implementation of your submission. 
+Labs, slack, lecture notes. I remembered the continue keyword from JS. 
+I think everything was well explained in lecture so there was no real need to go and reference other materials. 
+
+Please consider the following statements and choose one (delete the inappropriate one)
+
+- This is my work apart from the specific references noted above (and any code from class notes). I understand the code and can decribe any parts of the solution if needs be;
+
+TOTAL: 110
+A 24 
+B 34
+C 23
+D 11
+E 10
+F 8
+

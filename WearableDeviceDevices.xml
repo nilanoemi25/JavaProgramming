@@ -1,0 +1,30 @@
+<object-stream>
+  <list>
+    <models.SmartBand>
+      <size>20</size>
+      <price>200.0</price>
+      <material>plastic</material>
+      <modelName>viva</modelName>
+      <id>viva</id>
+      <heartRateMonitor>true</heartRateMonitor>
+    </models.SmartBand>
+    <models.SmartWatch>
+      <size>30</size>
+      <price>300.0</price>
+      <manufacturerName>SAMSUNG</manufacturerName>
+      <material>plastic</material>
+      <modelName>wood</modelName>
+      <id>wood</id>
+      <displayType>LCD</displayType>
+    </models.SmartWatch>
+    <models.SmartBand>
+      <size>50</size>
+      <price>500.0</price>
+      <manufacturerName>APPLE</manufacturerName>
+      <material>wood</material>
+      <modelName>ood</modelName>
+      <id>wood</id>
+      <heartRateMonitor>true</heartRateMonitor>
+    </models.SmartBand>
+  </list>
+</object-stream>
